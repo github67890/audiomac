@@ -1,0 +1,830 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.logo {}
+
+.settings {
+
+  
+
+}
+
+.main-menu{
+ text-decoration: none;
+
+
+
+
+}
+.sidebar{
+    white-space: nowrap;
+   display: flex;
+ 
+}
+
+
+/* ScrolBar  */
+.scrollbar {
+
+    height: 90%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.scrollbar:hover {
+
+    height: 90%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Scrollbar Style */
+
+
+
+#style-1::-webkit-scrollbar-track {
+  
+}
+
+#style-1::-webkit-scrollbar {
+    width: 5px;
+    background-color: black;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #BFBFBF;
+}
+
+/* Scrollbar End */
+
+
+
+
+.fa-lg {
+    font-size: 0.1em;
+
+}
+
+.fa {
+    position: relative;
+    
+    width: 55px;
+    height: 36px;
+    text-align: center;
+   
+    font-size: 25px;
+
+}
+
+.homicnland{
+    position: relative;
+    
+    width: 55px;
+    height: 36px;
+    text-align: center;
+   
+    font-size: 20px;
+    top: 12px;
+   }
+
+
+
+
+.main-menu {
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 55px;
+    bottom: 10px;
+    z-index: 999;
+    height: 100%;
+    left: 0;
+    width: 200px;
+    overflow-y: visible;
+    -webkit-transition: width .2s linear;
+    transition: width .2s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
+    opacity: 1;
+}
+
+.main-menu>ul {
+    margin: 7px 0;
+
+}
+
+.main-menu li {
+    position: relative;
+    display: block;
+    width: 250px;
+
+
+
+}
+
+.main-menu li>a {
+    position: relative;
+    width: 255px;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: inherit;
+    font-size: 13px;
+    text-decoration: none;
+   
+  
+
+}
+
+
+
+.main-menu .nav-icon {
+
+    position: relative;
+  
+    width: 55px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+
+}
+
+.main-menu .nav-text {
+text-decoration: none;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -16px;
+    display: table-cell;
+    vertical-align: middle;
+   
+    
+    font-family: 'Titillium Web', sans-serif;
+}
+.main-menu .nav-texthom {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -26px;
+    display: table-cell;
+    vertical-align: middle;
+
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+
+
+
+.main-menu .share {}
+
+.nav-text{
+   
+}
+
+.main-menu .fb-like {
+
+    left: 180px;
+    position: absolute;
+    top: 15px;
+}
+
+.main-menu>ul.logout {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+.no-touch .scrollable.hover {
+    overflow-y: hidden;
+
+}
+
+.no-touch .scrollable.hover:hover {
+    overflow-y: auto;
+    overflow: visible;
+
+}
+
+
+/* Logo Hover Property */
+
+
+.settings:hover,
+settings:focus {
+    background: url(https://s17.postimg.org/74cl7s05b/logo_hover.jpg);
+    -webkit-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+    -moz-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+    -o-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+    transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+}
+
+.settings:active,
+settings:focus {
+    background: url(https://s3.postimg.org/bqfooag4z/startific.jpg);
+    -webkit-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+    -moz-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+    -o-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+    transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+}
+
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    border-left: 0px solid #F7F7F7;
+
+
+
+}
+
+nav {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+}
+
+nav ul,
+nav li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+      
+}
+
+
+
+
+/* Darker element side menu Start*/
+
+
+.darkerli {
+    background-color: #ededed;
+    text-transform: capitalize;
+}
+
+.darkerlishadow {
+    background-color: #ededed;
+    text-transform: capitalize;
+    -webkit-box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+    -moz-box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+    box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.55);
+}
+
+
+.darkerlishadowdown {
+    background-color: #ededed;
+    text-transform: capitalize;
+    -webkit-box-shadow: inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+    -moz-box-shadow: inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+    box-shadow: inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
+}
+
+/* Darker element side menu End*/
+
+
+
+
+.main-menu li:hover>a,
+nav.main-menu li.active>a,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus,
+.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+.dashboard-page nav.dashboard-menu ul li.active a {
+    color: #cc6600;
+    
+    text-shadow: 0px 0px 0px;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+
+
+
+
+/* new navbar */
+/* -----------------------------------------
+   Timeline
+----------------------------------------- */
+.timeline {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    width:280px;
+}
+
+.timeline:after {
+    content: "";
+    height: auto;
+    width: 0px;
+    background: #e3e3e3;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    bottom: 25px;
+}
+
+.timeline.timeline-sm:after {
+    left: 12px;
+}
+
+.timeline li {
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+.timeline li:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #e3e3e3;
+    position: absolute;
+    left: 24px;
+    top: 5px;
+}
+
+.timeline li .timeline-date {
+    display: inline-block;
+    width: 100%;
+    color: #a6a6a6;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.timeline.timeline-icons li {
+    padding-top: 7px;
+}
+
+.timeline.timeline-icons li:after {
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    left: 14px;
+    top: 0;
+    z-index: 11;
+}
+
+.timeline.timeline-icons li .timeline-icon {
+    position: absolute;
+    left: 23.5px;
+    top: 7px;
+    z-index: 12;
+}
+
+.timeline.timeline-icons li .timeline-icon [class*=glyphicon] {
+    top: -1px !important;
+}
+
+.timeline.timeline-icons.timeline-sm li {
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+.timeline.timeline-icons.timeline-sm li:after {
+    left: -5px;
+}
+
+.timeline.timeline-icons.timeline-sm li .timeline-icon {
+    left: 4.5px;
+}
+
+.timeline.timeline-advanced li {
+    padding-top: 0;
+}
+
+.timeline.timeline-advanced li:after {
+    background: #fff;
+    border: 1px solid #29b6d8;
+}
+
+.timeline.timeline-advanced li:before {
+    content: "";
+    width: 52px;
+    height: 52px;
+    border: 10px solid #fff;
+    position: absolute;
+    left: 4px;
+    top: -10px;
+    border-radius: 50%;
+    z-index: 12;
+}
+
+.timeline.timeline-advanced li .timeline-icon {
+    color: #29b6d8;
+}
+
+.timeline.timeline-advanced li .timeline-date {
+    width: 75px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    text-align: right;
+}
+
+.timeline.timeline-advanced li .timeline-title {
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.timeline.timeline-advanced li .timeline-subtitle {
+    display: inline-block;
+    width: 100%;
+    color: #a6a6a6;
+}
+
+.timeline.timeline-advanced li .timeline-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 70px;
+}
+
+.timeline.timeline-advanced li .timeline-content p {
+    margin-bottom: 3px;
+}
+
+.timeline.timeline-advanced li .timeline-content .divider-dashed {
+    padding-top: 0px;
+    margin-bottom: 7px;
+    width: 200px;
+}
+
+.timeline.timeline-advanced li .timeline-user {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.timeline.timeline-advanced li .timeline-user:before,
+.timeline.timeline-advanced li .timeline-user:after {
+    content: " ";
+    display: table;
+}
+
+.timeline.timeline-advanced li .timeline-user:after {
+    clear: both;
+}
+
+.timeline.timeline-advanced li .timeline-user .timeline-avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 10px;
+}
+
+.timeline.timeline-advanced li .timeline-user .timeline-user-name {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.timeline.timeline-advanced li .timeline-user .timeline-user-subtitle {
+    color: #a6a6a6;
+    margin-top: -4px;
+    margin-bottom: 0;
+}
+
+.timeline.timeline-advanced li .timeline-link {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.timeline-load-more-btn {
+    margin-left: 70px;
+}
+
+.timeline-load-more-btn i {
+    margin-right: 5px;
+}
+
+
+/* -----------------------------------------
+   Dropdown
+----------------------------------------- */
+.dropdown-menu {
+    padding: 0 0 0 0;
+}
+
+a.dropdown-menu-header {
+    background: orangered;
+    font-weight: bold;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.dropdown-menu>li a {
+    padding: 10px 20px;
+}
+
+/* -----------------------------------------
+   Badge
+----------------------------------------- */
+
+.badge {
+    padding: 3px 5px 2px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    display: inline-block;
+    min-width: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.badge-danger {
+    background-color: #db5565;
+}
+.lebmarg {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contmarg{
+    font-size: 13px;
+  
+
+}
+.datemarg{
+    margin-top: 4px;
+    font-size:9px ;
+}
+
+/* sidebar icon css */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?z6i8t3');
+    src: url('../fonts/icomoon.eot?z6i8t3#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?z6i8t3') format('truetype'),
+        url('../fonts/icomoon.woff?z6i8t3') format('woff'),
+        url('../fonts/icomoon.svg?z6i8t3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: inherit;
+   
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-album-4:before {
+    content: "\e906";
+}
+
+.icon-instagram .path1:before {
+    content: "\e907";
+    color: rgb(0, 0, 0);
+}
+
+.icon-instagram .path2:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-instagram .path3:before {
+    content: "\e909";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-instagram .path4:before {
+    content: "\e90a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-report:before {
+    content: "\e90b";
+}
+
+.icon-text:before {
+    content: "\e90c";
+}
+
+.icon-policy:before {
+    content: "\e90d";
+}
+
+.icon-insurance-policy:before {
+    content: "\e90e";
+}
+
+.icon-twitter .path1:before {
+    content: "\e90f";
+    color: rgb(0, 0, 0);
+}
+
+.icon-twitter .path2:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-facebook-logo .path1:before {
+    content: "\e911";
+    color: rgb(0, 0, 0);
+}
+
+.icon-facebook-logo .path2:before {
+    content: "\e912";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-youtube:before {
+    content: "\e913";
+}
+
+.icon-influencer:before {
+    content: "\e914";
+}
+
+.icon-add-file:before {
+    content: "\e915";
+}
+
+.icon-carnival-mask:before {
+    content: "\e900";
+}
+
+.icon-podcast:before {
+    content: "\e901";
+}
+
+.icon-music-album:before {
+    content: "\e902";
+}
+
+.icon-album:before {
+    content: "\e903";
+}
+
+.icon-arrow:before {
+    content: "\e904";
+}
+
+.icon-newspaper:before {
+    content: "\e905";
+}
+
+
+
+/* break */
+.ulmarg{
+    margin-left: 20px;
+}
+
+
+
+.iconmarg1{
+    margin-left: 20px;
+   
+   
+}
+.limargtop {
+    margin-top: 15px;
+
+}
+.headgrop {
+    margin-left: 20px;
+
+    color: #cc6600;
+    font-weight: bolder;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.main-menu {
+    
+    
+}
+
+
+}
+@media only screen and (max-width: 992px) {
+    .main-menu {
+        
+        
+    }
+
+}
+
+
+.flex {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.app-btn {
+    width: 125%;
+    max-width: 160px;
+    color: #fff;
+    margin: 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.app-btn.blu {
+    background-color: #101010;
+    -webkit-transition: background-color 0.25s linear;
+    transition: background-color 0.25s linear;
+}
+
+.app-btn.blu:hover {
+    background-color: #454545;
+}
+
+.app-btn i {
+    width: 20%;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.app-btn .big-txt {
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+
+/* media query */
+@media screen and (max-width: 600px) {
+
+    .main-menu:hover,
+    nav.main-menu.expanded {
+        
+
+        opacity: 1;
+
+    }
+
+    .main-menu {
+   
+        margin-top: 10px;
+        
+    }
+
+
+
+
+
+
+}
